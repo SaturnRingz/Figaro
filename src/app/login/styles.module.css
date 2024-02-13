@@ -1,0 +1,51 @@
+.loginForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login_icon{
+    width: 50%;
+    height: auto;
+    margin-bottom: 2rem;
+    animation: palpitation 2s infinite alternate;
+}
+
+.formInput{
+  font-size: 1.2rem;
+    width: 80vw;
+    height: 2rem;
+    margin-bottom: 1em;
+    padding-left: .5em;
+    border: 1 px solid grey;
+    border-radius: 15px;
+}
+
+.submitButton{
+  font-size: 2rem;
+  margin-top: 1em;
+  min-width: 60vw;
+  max-width: 80vw;
+  height: 2.5rem;
+  border: 2px dashed black;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.inputsContainer{
+  margin: 0 5rem;
+}
+
+.forgotPassword{
+  float:left;
+}
+@keyframes palpitation {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.07);
+    }
+  }
